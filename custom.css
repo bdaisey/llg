@@ -5,8 +5,8 @@
   }
 
   .carousel-caption {
-    hide caption text - it dominates the images on small screens
-    display:none
+    /* hide caption text - it dominates the images on small screens */
+    display:none;
   }
 
 }
