@@ -4,6 +4,11 @@
       margin-bottom: 15px;
   }
 
+  .carousel-caption {
+    hide caption text - it dominates the images on small screens
+    display:none
+  }
+
 }
 
 body {
