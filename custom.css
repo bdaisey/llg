@@ -1,0 +1,91 @@
+@media (max-width: 992px) {
+
+  [class*="col-"] {
+      margin-bottom: 15px;
+  }
+
+}
+
+body {
+  /*sticky navbar hides overlays content*/
+  margin-top: 55px;
+  /*background-color: #dbcbaf;*/
+  /*background-color: #f9efe0;*/
+  /*background-color: #68491d;*/
+}
+
+.about-list {
+  width: 95%;
+  margin: auto;
+
+}
+
+.carousel-caption {
+
+  right: 1%;
+  text-align: right;
+  /*background-color: black;*/
+  max-width: 450px;
+  left: auto;
+  padding:5px;
+  /*background: rgba(0,0,0,0.1)*/
+}
+
+.carousel-caption h2,
+    .carousel-caption h6 {
+      margin: 0;
+      /*line-height: 1.25;*/
+      color: #fff;
+      text-shadow: 0 2px 2px rgba(0,0,0,.8);
+    }
+
+footer {
+  /*background-color: #064f28;*/
+  background-color: #3d2400;
+  color: #ffffff;
+  width: 100%;
+}
+
+.list-group {
+  margin: auto;
+  /*width: 85%;*/
+}
+
+.list-group li {
+  /*background-color: #9cbfa7;*/
+  /*background-color: #f9efe0;*/
+  color: #3d2400;
+}
+
+.navbar {
+  /*background-color: #064f28;*/
+  background-color: #3d2400;
+}
+
+.section-header-85 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 95%;
+  background-color: #064f28;
+}
+
+.section-header-full {
+  margin-top: 40px;
+  background-color: #064f28;
+}
+
+
+/* class^= "section-header-" matches starts with section-header- */
+/* class*= " section-header-" matches contains substring section-header- */
+div[class^="section-header-"] h1,
+div[class*=" section-header-"] h1 {
+    color: #f9efe0;
+}
+
+.twitter-cont {
+  margin: auto;
+  width: 95%;
+  /*max-height: 600px;*/
+  /*border: 1px solid rgba(0,0,0,.2);*/
+}
